@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Han's Boathouse</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Source+Code+Pro|Raleway" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+</head>
+<body>
+	<div class="contain">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid navContainter">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a href="#home" class="navbar-brand hvr-icon-pulse" id="n-home">Hans' Boathouse</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="hvr-bounce-to-top" id="n-about"><a class="link" href="#about">About </a></li>
+		        <li class="hvr-bounce-to-top" id="n-menu"><a class="link" href="#menu">Menu </a></li>
+		        <li class="hvr-bounce-to-top" id="n-press"><a class="link" href="#press">Press </a></li>
+		        <li class="hvr-bounce-to-top" id="n-contact"><a class="link" href="#contact">Contact</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div class="landing">
+			<div class="title">
+				<p id="warped">
+					<span class="w0">H</span>
+					<span class="w1">a</span>
+					<span class="w2">n</span>
+					<span class="w3">s</span>
+					<span class="w4">'</span>
+					<span class="w5">&nbsp;</span>
+					<span class="w6">B</span>
+					<span class="w7">o</span>
+					<span class="w8">a</span>
+					<span class="w9">t</span>
+					<span class="w10">h</span>
+					<span class="w11">o</span>
+					<span class="w12">u</span>
+					<span class="w13">s</span>
+					<span class="w14">e</span>
+				</p>
+				<p class="cityTitle">Brussels</p>
+			</div>
+		</div>
+		<div class="about" id="about">
+			<h2 class="secTitle">--About--</h2>
+			<h4 class="city">Brussels, Belgium</h4>
+			<div class="aboutContainer grid">
+				<img class="aboutImg" src="https://images.unsplash.com/photo-1515768678138-4ba95ba6ec96?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=23c4231964ff66f2b729c9b09780374d&auto=format&fit=crop&w=1058&q=80">
+				<div class="aboutText">Hans' Boathouse was founded in 1952 by Hans van Persie.  Originally started as a place to share his daily catch with local residents, Hans' Boathouse quickly grew into the seafood destination it is today.  Hans believed in quality over quantity, which is why the restaurant is famously known for regularly selling out of food.  Located in the heart of Brussels, Hans' Boathouse has evolved from local restaurant, to city landmark.  Currently run by his son and daughter, as well as the restaurant cat Nabo, Hans' Boathouse continues to operate with the same quality and tradition as it has for over 60 years.</div>
+			</div>
+		</div>
+		<div class="menu" id="menu">
+			<h2 class="secTitle">--Menu--</h2>
+			<div class="platImgs">
+				<img class="platImg" src="./images/snapper.jpg">
+				<img class="platImg" src="./images/sole.jpg">
+				<img class="platImg" src="./images/trout.jpg">
+			</div>
+			<h3 class="menuTitle">Entrees</h3>
+			<div class="entreeMenu grid">
+				<li class="menuItem">
+						<div class="foodItem">HANS' SALAD</div>
+						<div class="foodDes">salad, tomato, onion, feta, olives</div>
+						<div class="price">10&euro;</div>
+					</li>
+					<li class="menuItem">
+						<div class="foodItem">ESCARGOT</div>
+						<div class="foodDes">wild escargot, garlic butter, served with bread</div>
+						<div class="price">16&euro;</div>
+					</li>
+					<li class="menuItem">
+						<div class="foodItem">SMOKED SALMON</div>
+						<div class="foodDes">wild salmon, dill sauce</div>
+						<div class="price">14&euro;</div>
+					</li>
+					<li class="menuItem">
+						<div class="foodItem">SOUP OF THE DAY</div>
+						<div class="foodDes">soup of the day, served with bread</div>
+						<div class="price">11&euro;</div>
+					</li>	
+				</div>
+			<h3 class="menuTitle">Plats</h3>
+			<div class="platMenu grid">
+				<li class="menuItem">
+					<div class="foodItem">OVEN ROASTED SNAPPER</div>
+					<div class="foodDes">line caught snapper, brown butter, lemon, thyme, served with fries</div>
+					<div class="price">31&euro;</div>
+				</li>
+				<li class="menuItem">
+					<div class="foodItem">NORTH SEA OYSTERS</div>
+					<div class="foodDes">fresh live oysters, lemon juice, served with salad</div>
+					<div class="price">27&euro;</div>
+				</li>
+				<li class="menuItem">
+					<div class="foodItem">PAN ROASTED SOLE</div>
+					<div class="foodDes">line caught sole, garlic sauce, lemon, thyme, rosemary, served with salad</div>
+					<div class="price">29&euro;</div>
+				</li>
+				<li class="menuItem">
+					<div class="foodItem">PAN ROASTED SCALLOPS</div>
+					<div class="foodDes">wild scallops, creamy thyme sauce, watercress, lemon, served with fries</div>
+					<div class="price">30&euro;</div>
+				</li>
+				<li class="menuItem">
+					<div class="foodItem">GRILLED TROUT</div>
+					<div class="foodDes">line caught trout, cashew sauce, lemon, thyme, mint, served with salad</div>
+					<div class="price">33&euro;</div>
+				</li>
+				<li class="menuItem">
+					<div class="foodItem">FRIED PRAWNS</div>
+					<div class="foodDes">wild prawns, olive oil, red pepper, thyme, served with fries</div>
+					<div class="price">26&euro;</div>
+				</li>
+			</div>
+			<h3 class="menuTitle">Dessert</h3>
+			<div class="desertMenu grid">
+				<li class="menuItem">
+					<div class="foodItem">WAFFLE</div>
+					<div class="foodDes">house made, organic cane sugar</div>
+					<div class="price">8&euro;</div>
+				</li>
+				<li class="menuItem">
+					<div class="foodItem">STOFE</div>
+					<div class="foodDes">Hans' family recipe, serve with fresh fruit</div>
+					<div class="price">9&euro;</div>
+				</li>
+			</div>
+		</div>
+		<div class="press" id="press">
+			<h3 class="secTitle">--Press--</h3>
+			<a href="./press.html" target="_blank"><div class="pressDiv grid">
+				<div class="pressImg pressImg1"></div>
+				<div class="pressItem">
+					<div class="pressTitle">ICONIC SEAFOOD RESTAURANT KEEPING WITH FORMULA THAT WORKS</div>
+					<div class="pressSource">Metropolis Bugle</div> | <div class="pressSource">August 2016</div>
+					<div class="pressDes">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</div>
+					<div class="pressLink">CLICK FOR MORE</div>
+				</div>
+			</div></a>
+			<a href="./press.html" target="_blank"><div class="pressDiv grid">
+				<div class="pressImg pressImg2"></div>
+				<div class="pressItem">
+					<div class="pressTitle">LOCAL BRUSSELS FAVORITE AWARDED 2 STARS</div>
+					<div class="pressSource">The Amity Gazette</div> | <div class="pressSource">March 2017</div>
+					<div class="pressDes">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</div>
+					<div class="pressLink">CLICK FOR MORE</div>
+				</div>
+			</div></a>
+			<a href="./press.html" target="_blank"><div class="pressDiv grid">
+				<div class="pressImg pressImg3"></div>
+				<div class="pressItem">
+					<div class="pressTitle">HANS' BOATHOUSE NAMED BEST SEAFOOD RESTAURANT 3RD YEAR IN A ROW</div>
+					<div class="pressSource">The Daily Prophet</div> | <div class="pressSource">November 2017</div>
+					<div class="pressDes">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</div>
+					<div class="pressLink">CLICK FOR MORE</div>
+				</div>
+			</div></a>
+		</div>
+		<div class="contact" id="contact">
+			<h3 class="secTitle">--Contact--</h3>
+			<div class="contactDiv grid">
+				<div class="contactDetails">
+					<div class="contactTitle">FIND US AT:</div>
+					<div class="contactStreet">Rue de Doesnotexist 43</div>
+					<div class="contactStreet">1000 Bruxelles</div>
+					<div class="hours hoursTop">Hours:</div>
+					<div class="hours">Monday: Closed</div>
+					<div class="hours">Tuesday: 1800-2100</div>
+					<div class="hours">Wednesday: 1800-2100</div>
+					<div class="hours">Thursday: Closed</div>
+					<div class="hours">Friday: 1600-2200</div>
+					<div class="hours">Saturday: 1600-2200</div>
+					<div class="hours">Sunday: Closed</div>
+				</div>
+				<div id="map"></div>
+			</div>
+		</div>
+		<footer>
+	  	<div class="foot">
+	    		<p>&copy; Jarrod Yellets | 2018</p>
+	  	</div>
+	   </footer>
+	</div>
+	<script>
+		function initMap() {
+	    var uluru = {lat: 50.8470, lng: 4.36};
+	    var map = new google.maps.Map(document.getElementById('map'), {
+	      zoom: 16,
+	      center: uluru
+	    });
+	    var marker = new google.maps.Marker({
+	      position: uluru,
+	      map: map
+	    });
+	  }
+	</script>
+	<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0EL0VwCZ8DWy0_Xb9FG5nrFsUp6iMS7o&callback=initMap">
+  </script>
+</body>
+</html>

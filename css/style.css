@@ -1,0 +1,665 @@
+body {
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Source Code Pro', monospace;
+	height: 100vh;
+}
+
+.contain {
+	overflow: hidden;
+}
+
+.landing {
+	margin: 0;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Cabin Sketch', cursive;
+	color: white;
+	text-align: center;
+	align-items: center;
+}
+
+.landing:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(../images/whiteBackground.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 76, 108, .4);
+
+}
+
+.landing p {
+	margin: 0;
+}
+
+.navbar {
+	font-family: 'Fredericka the Great', cursive;
+	background-color: rgba(3, 76, 108, 0);
+	border: none;
+  -webkit-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-size: 1.7em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+	transform: translateY(10px);
+}
+
+.link {
+	-webkit-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.navbar-default .navbar-brand {
+	font-size: 2.5em;
+	color: #fff;
+  -webkit-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-default .navbar-brand:focus {
+	color: #fff;
+}
+
+.navContainter {
+	margin: 0 50px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	border-radius: 0;
+	background-color: #fff;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+	overflow-x: hidden;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.shrinkBrand {
+	font-size: 2em !important;
+}
+
+.shrinkMenu {
+	font-size: 1.5em !important;
+}
+
+.darkBackground {
+	background-color: rgba(3, 76, 108, .8);
+}
+
+.title {
+	position: relative;
+	top: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Fredericka the Great', cursive;
+	color: #fff;
+}
+
+#warped {
+	position: relative; 
+	display: block; 
+	width: 982px; 
+	height: 217px;
+}
+
+#warped>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;
+-moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50%
+100%; -ms-transform-origin:50% 100%; transform-origin:50% 100%; }
+
+#warped span {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 5em;
+	font-style: normal;
+  line-height: 0.7; 
+  white-space: pre; 
+  overflow: visible; 
+  padding: 0px;}
+
+#warped .w0 {
+  -moz-transform: rotate(-0.92rad);
+  -webkit-transform: rotate(-0.92rad);
+  -o-transform: rotate(-0.92rad);
+  -ms-transform: rotate(-0.92rad);
+  transform: rotate(-0.92rad);
+  width: 50px;
+  height: 49px;
+  left: 181.36px;
+  top: 137.56px;
+}
+
+#warped .w1 {
+  -moz-transform: rotate(-0.76rad);
+  -webkit-transform: rotate(-0.76rad);
+  -o-transform: rotate(-0.76rad);
+  -ms-transform: rotate(-0.76rad);
+  transform: rotate(-0.76rad);
+  width: 35px;
+  height: 49px;
+  left: 226.04px;
+  top: 96.43px;
+}
+
+#warped .w2 {
+  -moz-transform: rotate(-0.62rad);
+  -webkit-transform: rotate(-0.62rad);
+  -o-transform: rotate(-0.62rad);
+  -ms-transform: rotate(-0.62rad);
+  transform: rotate(-0.62rad);
+  width: 40px;
+  height: 49px;
+  left: 262.6px;
+  top: 64.49px;
+}
+
+#warped .w3 {
+  -moz-transform: rotate(-0.51rad);
+  -webkit-transform: rotate(-0.51rad);
+  -o-transform: rotate(-0.51rad);
+  -ms-transform: rotate(-0.51rad);
+  transform: rotate(-0.51rad);
+  width: 14px;
+  height: 49px;
+  left: 309.52px;
+  top: 43.34px;
+}
+
+#warped .w4 {
+  -moz-transform: rotate(-0.4rad);
+  -webkit-transform: rotate(-0.4rad);
+  -o-transform: rotate(-0.4rad);
+  -ms-transform: rotate(-0.4rad);
+  transform: rotate(-0.4rad);
+  width: 32px;
+  height: 49px;
+  left: 332.93px;
+  top: 27.69px;
+}
+
+#warped .w5 {
+  -moz-transform: rotate(-0.3rad);
+  -webkit-transform: rotate(-0.3rad);
+  -o-transform: rotate(-0.3rad);
+  -ms-transform: rotate(-0.3rad);
+  transform: rotate(-0.3rad);
+  width: 16px;
+  height: 49px;
+  left: 375.71px;
+  top: 15.14px;
+}
+
+#warped .w6 {
+  -moz-transform: rotate(-0.18rad);
+  -webkit-transform: rotate(-0.18rad);
+  -o-transform: rotate(-0.18rad);
+  -ms-transform: rotate(-0.18rad);
+  transform: rotate(-0.18rad);
+  width: 41px;
+  height: 49px;
+  left: 403.55px;
+  top: 5.47px;
+}
+
+#warped .w7 {
+  -moz-transform: rotate(-0.03rad);
+  -webkit-transform: rotate(-0.03rad);
+  -o-transform: rotate(-0.03rad);
+  -ms-transform: rotate(-0.03rad);
+  transform: rotate(-0.03rad);
+  width: 40px;
+  height: 49px;
+  left: 457.23px;
+  top: 0.1px;
+}
+
+#warped .w8 {
+  -moz-transform: rotate(0.11rad);
+  -webkit-transform: rotate(0.11rad);
+  -o-transform: rotate(0.11rad);
+  -ms-transform: rotate(0.11rad);
+  transform: rotate(0.11rad);
+  width: 35px;
+  height: 49px;
+  left: 510.13px;
+  top: 2.46px;
+}
+
+#warped .w9 {
+  -moz-transform: rotate(0.24rad);
+  -webkit-transform: rotate(0.24rad);
+  -o-transform: rotate(0.24rad);
+  -ms-transform: rotate(0.24rad);
+  transform: rotate(0.24rad);
+  width: 26px;
+  height: 49px;
+  left: 557.4px;
+  top: 10.23px;
+}
+
+#warped .w10 {
+  -moz-transform: rotate(0.37rad);
+  -webkit-transform: rotate(0.37rad);
+  -o-transform: rotate(0.37rad);
+  -ms-transform: rotate(0.37rad);
+  transform: rotate(0.37rad);
+  width: 39px;
+  height: 49px;
+  left: 594.26px;
+  top: 23.93px;
+}
+
+#warped .w11 {
+  -moz-transform: rotate(0.51rad);
+  -webkit-transform: rotate(0.51rad);
+  -o-transform: rotate(0.51rad);
+  -ms-transform: rotate(0.51rad);
+  transform: rotate(0.51rad);
+  width: 40px;
+  height: 49px;
+  left: 641.11px;
+  top: 46.49px;
+}
+
+#warped .w12 {
+  -moz-transform: rotate(0.66rad);
+  -webkit-transform: rotate(0.66rad);
+  -o-transform: rotate(0.66rad);
+  -ms-transform: rotate(0.66rad);
+  transform: rotate(0.66rad);
+  width: 40px;
+  height: 49px;
+  left: 684.98px;
+  top: 76.13px;
+}
+
+#warped .w13 {
+  -moz-transform: rotate(0.8rad);
+  -webkit-transform: rotate(0.8rad);
+  -o-transform: rotate(0.8rad);
+  -ms-transform: rotate(0.8rad);
+  transform: rotate(0.8rad);
+  width: 32px;
+  height: 49px;
+  left: 725.19px;
+  top: 109.1px;
+}
+
+#warped .w14 {
+  -moz-transform: rotate(0.93rad);
+  -webkit-transform: rotate(0.93rad);
+  -o-transform: rotate(0.93rad);
+  -ms-transform: rotate(0.93rad);
+  transform: rotate(0.93rad);
+  width: 35px;
+  height: 49px;
+  left: 753.51px;
+  top: 144.73px;
+}
+
+.cityTitle {
+	font-size: 2.1em;
+}
+
+.about {
+	width: 100vw;
+	background: #E4E1DC;
+}
+
+.secTitle {
+	margin: 0;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 2.5em;
+	padding-top: 65px;
+}
+
+.city {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+}
+
+.aboutContainer {
+	margin: 0 5%;
+	padding: 5% 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+	place-items: flex-start center;
+}
+
+.aboutImg {
+	width: 60%;
+	min-width: 330px;
+}
+
+.aboutText {
+	width: 80%;
+	min-width: 330px;
+	line-height: 3;
+	color: #707070;
+	font-size: .75em;
+}
+
+.menu {
+	width: 100vw;
+	background: #d1e0e7;
+	padding: 0 10% 10% 10%;
+}
+
+.menuTitle {
+	margin-top: 20px;
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+}
+
+.platImgs {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.platImg {
+	border: 3px solid #034c6c;
+  position: relative;
+  width:  30%;
+  height: 16vw;
+  min-height: 100%;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover; 
+}
+
+.entreeMenu {
+	margin: 10px 0 100px 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 50px;
+	border-top: 1px solid #034c6c;
+	padding-top: 20px;
+}
+
+.platMenu {
+	margin: 10px 0 100px 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 50px;
+	border-top: 1px solid #034c6c;
+	padding-top: 20px;
+}
+
+.menuItem {
+	position: relative;
+	list-style: none;
+	font-size: .9em;
+}
+
+.foodItem {
+	font-weight: 700;
+	color: #034c6c;
+}
+
+.foodDes {
+	font-size: .85em;
+	color: #707070;
+}
+
+.price {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.desertMenu {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 50px;
+	border-top: 1px solid #034c6c;
+	padding-top: 20px;
+}
+
+.press {
+	position: relative;
+	width: 100vw;
+	background: rgba(228, 225, 220, .4);
+	padding-bottom: 3%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.press:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(../images/whiteBackground.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pressDiv {
+	background: #fefefe;
+	width: 80%;
+	margin: 5% auto;
+	position: relative;
+	cursor: pointer;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.pressDiv:hover {
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+	transform: translateY(-5px);
+}
+
+.pressImg {
+	z-index: 1;
+}
+
+.pressImg1 {
+	background-image: url("../images/scallops.jpg")
+}
+
+.pressImg2 {
+	background-image: url("../images/stofe.jpg")
+}
+
+.pressImg3 {
+	background-image: url("../images/prawns.jpg")
+}
+
+.pressItem {
+	grid-column: 2 / span 2;
+	padding: 5%;
+}
+
+.pressTitle {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #034c6c;
+}
+
+.pressSource {
+	position: relative;
+	font-style: italic;
+	display: inline-block;
+	font-size: .85em;
+	color: #707070; 
+	margin-bottom: 5%;
+}
+
+.pressDes {
+	position: relative;
+	font-size: .85em;
+	color: #707070;
+}
+
+.pressLink {
+	position: relative;
+	font-size: .75em;
+	color: #707070;
+	margin-top: 10px;
+}
+
+.contact {
+	width: 100vw;
+	background: #d1e0e7;
+	padding: 0 10% 5% 10%;
+}
+
+.contactDiv {
+	margin-top: 5%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+}
+
+.contactDetails {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.contactTitle {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #034c6c;
+}
+
+.contactStreet {
+	font-size: 1.2em;
+	color: #707070;
+}
+
+.hoursTop {
+	margin-top: 5%;
+}
+
+.hours {
+	font-size: 1.2em;
+	color: #707070;
+}
+
+#map {
+	margin: 5% 0;
+	height: 400px;
+	width: 100%;
+}
+
+.foot {
+  background: #E4E1DC;
+  color: #707070;
+  height: 100%;
+  font-family: Raleway;
+  text-align: center;
+}
+
+@media (max-width: 900px){
+	body {
+		font-size: 12px;
+	}
+
+	.aboutText {
+		font-size: .85em;
+	}
+
+	.foodDes {
+		font-size: .95em;
+	}
+}
+
+@media (max-width: 768px){
+	
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	#warped {
+   -moz-transform: scale(0.8);
+   -o-transform: scale(0.8);
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+	}
+}
+
+@media (max-width: 575px){
+
+	.navbar-default .navbar-brand {
+		font-size: 1.8em;
+		margin-left: -30px;
+	}
+
+	.navbar-default .navbar-toggle {
+  	margin-right: -20px;
+	}
+
+	#warped {
+   -moz-transform: scale(0.5);
+   -o-transform: scale(0.5);
+   -webkit-transform: scale(0.5);
+   transform: scale(0.5);
+	}
+}
