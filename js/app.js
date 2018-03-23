@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
+//Nav Bar animation
 	$(window).scroll(function() {
 		$(".title").css("opacity", 1 - $(window).scrollTop() / 250);
 	  if ($(document).scrollTop() > 50) {
 	    $('.navbar-brand').addClass('shrinkBrand');
 	    $('.link').addClass('shrinkMenu');
 	    $('.navbar').addClass('darkBackground');
-
 	  } else {
 	    $('.navbar-brand').removeClass('shrinkBrand');
 	    $('.link').removeClass('shrinkMenu');
@@ -20,6 +20,7 @@ $(document).ready(function(){
 		}
 	})
 
+//Auto Scroll
 	$('#n-home').click(function(){
 			scroll_to(".contain");
 	})
