@@ -360,11 +360,10 @@ body {
 .aboutContainer {
   margin: 0 5%;
   padding: 5% 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-gap: 20px;
-  place-items: flex-start center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutImg {
@@ -373,7 +372,7 @@ body {
 }
 
 .aboutText {
-  width: 80%;
+  width: 60%;
   min-width: 330px;
   line-height: 3;
   color: #707070;
