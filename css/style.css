@@ -367,16 +367,18 @@ body {
 }
 
 .aboutImg {
-  width: 60%;
+  width: 80%;
   min-width: 330px;
+  max-width: 1000px;
 }
 
 .aboutText {
-  width: 60%;
+  width: 80%;
   min-width: 330px;
+  max-width: 1000px;
   line-height: 3;
-  color: #707070;
-  font-size: .75em;
+  color: #034c6c;;
+  font-size: 1em;
 }
 
 .menu {
@@ -411,6 +413,7 @@ body {
 
 .entreeMenu {
   margin: 10px 0 100px 0;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -421,6 +424,7 @@ body {
 
 .platMenu {
   margin: 10px 0 100px 0;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -495,6 +499,7 @@ a:hover {
 .pressDiv {
   background: #fefefe;
   width: 80%;
+  max-width: 1000px;
   margin: 5% auto;
   position: relative;
   cursor: pointer;
@@ -578,6 +583,7 @@ a:hover {
 
 .contactDetails {
   display: flex;
+  max-width: 1000px;
   flex-direction: column;
   justify-content: center;
 }
