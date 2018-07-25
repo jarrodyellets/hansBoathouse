@@ -355,6 +355,7 @@ body {
 .city {
   font-family: 'Fredericka the Great', cursive;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .aboutContainer {
@@ -370,20 +371,26 @@ body {
 
 .aboutImg {
   width: 100%;
-  min-width: 330px;
 }
 
 .imgDes {
   font-size: .75em;
   margin-bottom: 40px;
   align-self: flex-start;
+  font-style: italic;
+}
+
+.aboutTextTitle {
+  font-family: 'Fredericka the Great', cursive;
+  align-self: flex-start;
+  font-size: 1.2em;
 }
 
 .aboutText {
-  min-width: 330px;
   line-height: 3;
   color: #034c6c;;
   font-size: 1em;
+  margin-bottom: 10%;
 }
 
 .menu {
